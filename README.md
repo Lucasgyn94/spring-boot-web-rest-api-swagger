@@ -4,11 +4,11 @@ Criando uma API RESTful com spring boot web e swagger e Maven no gerenciamento d
 # API
 * Uma API (Programm Application Interface) é um código programável que faz a "ponte" de comunicação entre duas aplicações distintas.
 
-==> REST e RESTful
+# REST e RESTful
 * A API REST (representaional state transfer) é como um guia de boas práticas e RESTful é a capacidade de determinado sistema aplicar os príncipios de REST.
 
-==> PRINCÍPIOS
-Características para que seja uma API RESTful:
+# PRINCÍPIOS
+## Características para que seja uma API RESTful:
 * cliente - servidor: aprimorar a portabilidade entre várias plataformas de interface do lado usuário e do servidor, permitindo uma evolução independente do sistema.
 
 * interface uniforme - representa uma interação uniforme entre cliente e servidor.
@@ -19,7 +19,7 @@ Características para que seja uma API RESTful:
 
 * camadas: permite que a arquitetura seja menos complexa e altamente flexível
 
-==> Nível de maturidade
+# Nível de maturidade
 Para padronizar e facilitar o desenvolvimento de APIs REST, Leonard Richardson propôs um modelo de maturidade para esse tipo de API, definido em 4 níveis:
 Level 3: Hypermedia Controls
 Level 2: HTTP Verbs
@@ -31,7 +31,7 @@ Level 0: The Swamp of POX
 * PUT: altera/atualiza dados
 * DELETE: deleta dados
 
-==> CONTROLLER
+# CONTROLLER
 É um recurso que disponibiliza as funcionalidades de negócio da aplicação através do protocolo HTTP. 
 
 -> @RestController: responsável por designar o bean de component que suporta requisições HTTP com bane na arquitetura REST.
@@ -50,8 +50,8 @@ Level 0: The Swamp of POX
 
 -> @PatchVariable: Consegue determinar que parte da URI será composta por parâmetros recebidos nas requisições.
 
-=> CONTROLE DE USUÁRIOS
+# CONTROLE DE USUÁRIOS
 Vamos disponibilizar as funcionalidades de CRUD da entidade através de uma API.
 
-==> SWAGGER
+# SWAGGER
 É uma linguagem de descrição de interface para descrever APIs RESTful expressas usando JSON. O Swagger é usado junto com um conjunto de ferramentas de softwares de código aberto para projetar, construir, documentar e usar serviços da Web RESTful.
