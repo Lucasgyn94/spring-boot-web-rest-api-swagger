@@ -1,7 +1,7 @@
 # spring-boot-web-rest-api-swagger
 Criando uma API RESTful com spring boot web e swagger e Maven no gerenciamento de nossas dependências.
 
-#API
+# API
 * Uma API (Programm Application Interface) é um código programável que faz a "ponte" de comunicação entre duas aplicações distintas.
 
 ==> REST e RESTful
